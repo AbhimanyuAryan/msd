@@ -1,0 +1,13 @@
+output:
+
+{
+   'image_name_1.jpg': [
+       ['crop_name_1.jpg', [x1, y1, x2, y2]],
+       ['crop_name_2.jpg', [x1, y1, x2, y2]],
+   ],
+   'image_name_2.jpg': [], # no crop association
+   'NA': [ # no image association
+       ['crop_name_1.jpg', []],
+       ['crop_name_2.jpg', []]
+   ],
+}
