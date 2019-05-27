@@ -28,7 +28,7 @@ cloth_matches['NA'] = []
 for crop in cropped_images:
     for actual in original_images:
         print(actual, crop)
-        cloth_matches[actual.split('/')[-1]] = []
+        #cloth_matches[actual.split('/')[-1]] = []
         coordinates = template_match_coord(actual, crop)
         if coordinates != None:
             insert_in_cloth_matches(actual, crop)
