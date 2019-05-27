@@ -1,5 +1,9 @@
 ### Instructions :- 
 
+Time Complexity is m(cropped_images) * n(actual_images):
+
+Although as soon as it finds a mathch it breaks the loop so technically there aren't m*n comparsions but worst-case scenario O(mxn)
+
 ##### Downloading data
 
 ```
