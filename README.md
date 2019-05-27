@@ -77,4 +77,4 @@ Roated images approach I followed
 - In this way should work I think....If not then the point need to be traslated also
 
 ![](rotation.png)
-![](approach.png)
+![](approach.PNG)
